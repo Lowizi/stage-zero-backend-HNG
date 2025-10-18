@@ -1,0 +1,21 @@
+# Ignore the environment file
+.env
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+db.sqlite3
+
+# Ignore Django migrations (if not needed in repo)
+my_profile_app/migrations/
+# OR ignore all migrations if you manage them locally
+*/migrations/
+
+# Ignore virtual environment (if you use one)
+venv/
+.venv/
+
+# Ignore IDE/project files (if applicable)
+*.log
+*.sqlite3  # Database file (optional, if you want to exclude it)
